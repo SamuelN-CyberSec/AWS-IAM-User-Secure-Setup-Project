@@ -1,21 +1,25 @@
 # AWS-IAM-User-Secure-Setup-Project
-This project demonstrates the secure creation and configuration of an IAM user in AWS, following industry best practices. It covers permission assignment using AWS-managed job function policies and the implementation of Multi-Factor Authentication (MFA) to enhance account security. 
+This project demonstrates the secure creation and configuration of an IAM user in AWS, following industry best practices. It covers creation of user, permission assignment, creation of user group  and the implementation of Multi-Factor Authentication (MFA) to enhance account security. 
 
-## Objective
--IAM user creation  
+**IAM user creation**  
 -permission Assignment 
 -multifactor Authentication (MFA) Configuration
+-IAM User group creation 
 -Multifactor Authentication Verification
 
 **###Technology and service used** 
+ 
 - AWS Identity and Access Management (IAM)
 - AWS Managed Policies 
 - Virtual MFA Application (Microsoft Authenticator)
 
-**##Steps**
+**Steps**
 -IAM user creation 
 -logged in to AWS management console as the root user 
 -Attached AWS Managed job function policies to the Iam user for secure role-specific access
+-Create User group
+-Attach Policy
+-Add Users
 -Enabled MFA for the IAM user
 -chose virtual device option 
 -Scanned the provided QR code using Microsoft  authenticator
@@ -25,16 +29,15 @@ This project demonstrates the secure creation and configuration of an IAM user i
 
 
 **##Key Best Practiced Followed**
+
 -Avoided using the root account for daily operation
 -Enforced multifactor authentication for enhanced account security 
 -Applied least privilege access principle by assigning only necessary managed service
 -verified IAM configuration through practical sign-in testing  
 
-**##Demo Video Link **
--IAM User Configuration Demo https://youtu.be/Oaour3Q5090
--IAM User  MFA Verification Demo [https://youtu.be/2nF8xwA9AjM](https://youtu.be/2nF8xwA9AjM)
+**##Demo Video**
+-IAM User Configuration Demo  https://youtu.be/MdMH79Cu97U
+-IAM User  MFA Verification Demo  https://youtu.be/2oIBghzjYKE
 
-
-
-
+###
 
